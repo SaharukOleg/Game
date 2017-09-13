@@ -22,10 +22,10 @@ public class PlaygroundLabyrinth {
     public PlaygroundLabyrinth initPlayground(){
         PlaygroundLabyrinth pl = new PlaygroundLabyrinth();
         pl.setStart(Level.createStartLevel());
-        pl.setSecond(Level.createOrdinaryLevel(EnumsLevels.SECOND));
-        pl.setThird(Level.createOrdinaryLevel(EnumsLevels.THIRD));
-        pl.setFourth(Level.createOrdinaryLevel(EnumsLevels.FOURTH));
-        pl.setFourth(Level.createOrdinaryLevel(EnumsLevels.FIFTH));
+        pl.setSecond(Level.createOrdinaryLevel());
+        pl.setThird(Level.createOrdinaryLevel());
+        pl.setFourth(Level.createOrdinaryLevel());
+        pl.setFourth(Level.createOrdinaryLevel());
         pl.setFinish(Level.createFinishLevel());
         return pl;
     }
